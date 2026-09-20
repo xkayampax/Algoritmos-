@@ -1,0 +1,7 @@
+f = open ("bitacora.txt", "a")
+print("Bienvenido a la bitácora de eventos\n")
+hora = input("Ingrese la hora: ")
+fecha = input("Ingrese la fecha: ")
+msj = input("Ingrese el mensaje: " )
+print("Se ha registrado el evento correctamente a las " + hora + " del día " + fecha )
+f.close()
